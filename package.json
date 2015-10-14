@@ -1,0 +1,22 @@
+{
+  "name": "zepto-cmd",
+  "version": "1.0.0",
+  "description": "\"让zepto库支持CMD格式\"",
+  "main": "zepto.js",
+  "scripts": {
+    "test": "echo \\\"Error: no test specified\\\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/shinygang/zepto-cmd.git"
+  },
+  "keywords": [
+    "zepto"
+  ],
+  "author": "shinygang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shinygang/zepto-cmd/issues"
+  },
+  "homepage": "https://github.com/shinygang/zepto-cmd#readme"
+}
