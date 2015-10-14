@@ -1,22 +1,23 @@
 {
-  "name": "zepto-cmd",
-  "version": "1.0.0",
-  "description": "\"让zepto库支持CMD格式\"",
+  "name": "commonjs-zepto",
+  "version": "0.0.1",
+  "description": "\"让zepto库支持commonJS规范\"",
   "main": "zepto.js",
   "scripts": {
     "test": "echo \\\"Error: no test specified\\\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/shinygang/zepto-cmd.git"
+    "url": "git://github.com/shinygang/commonjs-zepto.git"
   },
   "keywords": [
-    "zepto"
+    "zepto",
+    "commonjs"
   ],
   "author": "shinygang",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/shinygang/zepto-cmd/issues"
+    "url": "https://github.com/shinygang/commonjs-zepto/issues"
   },
-  "homepage": "https://github.com/shinygang/zepto-cmd#readme"
+  "homepage": "https://github.com/shinygang/commonjs-zepto#readme"
 }

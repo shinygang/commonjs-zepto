@@ -2,12 +2,12 @@
 This is a fork based on [madrobby/zepto](https://github.com/madrobby/zepto).
 
 ```
-npm install --save zepto-cmd
+npm install --save commonjs-zepto
 ```
 
 ```js
-$ = require('zepto-cmd').$
-Zepto = require('zepto-cmd').Zepto
+$ = require('commonjs-zepto').$
+Zepto = require('commonjs-zepto').Zepto
 $ === Zepto // true
 ```
 
