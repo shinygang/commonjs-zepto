@@ -22,17 +22,8 @@ git diff zepto.js
 ```
 
 ```diff
--
--window.Zepto = Zepto
--'$' in window || (window.$ = Zepto)
--
--
--
-+// @@ original loader
-+// window.Zepto = Zepto
-+// '$' in window || (window.$ = Zepto)
 +// @@ modified by shinygang
-+module.exports.$ = Zepto;
-+module.exports.Zepto = Zepto;
++ else if (typeof exports === 'object')
++   module.exports = factory(global)
 +// @@ modifications end
 ```

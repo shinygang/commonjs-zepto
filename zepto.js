@@ -2,7 +2,7 @@
 (function(global, factory) {
   if (typeof define === 'function' && define.amd)
     define(function() { return factory(global) })
-  else if (typeof exports === 'object') {
+  else if (typeof exports === 'object')
     module.exports = factory(global)
   else
     factory(global)
