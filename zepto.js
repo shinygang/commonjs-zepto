@@ -2,6 +2,8 @@
 (function(global, factory) {
   if (typeof define === 'function' && define.amd)
     define(function() { return factory(global) })
+  else if (typeof exports === 'object') {
+    module.exports = factory(global)
   else
     factory(global)
 }(this, function(window) {
@@ -948,11 +950,11 @@
 
 
 // @@ original loader
-// window.Zepto = Zepto
-// window.$ === undefined && (window.$ = Zepto)
+window.Zepto = Zepto
+window.$ === undefined && (window.$ = Zepto)
 // @@ modified by shinygang
-module.exports.$ = Zepto;
-module.exports.Zepto = Zepto;
+// module.exports.$ = Zepto;
+// module.exports.Zepto = Zepto;
 // @@ modifications end
 
 ;(function($){
