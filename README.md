@@ -6,9 +6,7 @@ npm install --save commonjs-zepto
 ```
 
 ```js
-$ = require('commonjs-zepto').$
-Zepto = require('commonjs-zepto').Zepto
-$ === Zepto // true
+import $ from 'commonjs-zepto'
 ```
 
 How I made this:
